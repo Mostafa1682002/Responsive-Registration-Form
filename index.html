@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="CSS/style.css" />
+    <title>Responsive Registration Form</title>
+  </head>
+  <body>
+    <div class="content">
+      <h2>Rgisteration</h2>
+      <form action="">
+        <div class="form-rgi frist">
+          <h3>Personal Details</h3>
+          <div class="container-boxs">
+            <div class="box">
+              <label for="name">Full Name</label>
+              <input
+                type="text"
+                name="name"
+                id="name"
+                placeholder="Enter your name"
+                required
+              />
+            </div>
+            <div class="box">
+              <label for="birth">Date of Birth</label>
+              <input type="date" name="birth" id="birth" required />
+            </div>
+            <div class="box">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Enter your email"
+                required
+              />
+            </div>
+            <div class="box">
+              <label for="mobile">Mobile Number</label>
+              <input
+                type="tel"
+                name="mobile"
+                id="mobile"
+                placeholder="Enter mobile number"
+                required
+              />
+            </div>
+            <div class="box">
+              <label for="gender">Gender</label>
+              <input
+                type="text"
+                name="gender"
+                id="gender"
+                placeholder="Enter your gender"
+                required
+              />
+            </div>
+            <div class="box">
+              <label for="occupation">Occupation</label>
+              <input
+                type="text"
+                name="occupation"
+                id="occupation"
+                placeholder="Enter your occupation"
+                required
+              />
+            </div>
+          </div>
+          <h3>Identity Details</h3>
+          <div class="container-boxs">
+            <div class="box">
+              <label for="id">ID Type</label>
+              <input
+                type="text"
+                name="id"
+                id="id"
+                placeholder="Enter ID type"
+                required
+              />
+            </div>
+            <div class="box">
+              <label for="id-number">ID Number</label>
+              <input
+                type="number"
+                name="id-number"
+                id="id-number"
+                min="0"
+                placeholder="Enter ID number"
+                required
+              />
+            </div>
+            <div class="box">
+              <label for="issue">Issue Authority</label>
+              <input
+                type="text"
+                name="issue"
+                id="issue"
+                placeholder="Enter issue department"
+                required
+              />
+            </div>
+            <div class="box">
+              <label for="issue-state">Issued State</label>
+              <input
+                type="text"
+                name="issue-state"
+                id="issue-state"
+                placeholder="Enter issue state"
+                required
+              />
+            </div>
+            <div class="box">
+              <label for="issue-date">Issued Date</label>
+              <input type="date" name="issue-date" id="issue-date" required />
+            </div>
+            <div class="box">
+              <label for="expiry-date">Expiry Date</label>
+              <input type="date" name="expiry-date" id="expiry-date" required />
+            </div>
+          </div>
+          <button class="nextBtn">
+            <span>Next</span> <i class="fas fa-arrow-right"></i>
+          </button>
+        </div>
+        <div class="form-rgi second">
+          <h3>Address Details</h3>
+          <div class="container-boxs">
+            <div class="box">
+              <label for="adress">Address Type</label>
+              <input
+                type="text"
+                name="address"
+                id="address"
+                placeholder="Permanent or Temporary"
+                required
+              />
+            </div>
+            <div class="box">
+              <label for="nationality">Nationality</label>
+              <input
+                type="text"
+                name="nationality"
+                id="nationality"
+                placeholder="Enter your nationality"
+                required
+              />
+            </div>
+            <div class="box">
+              <label for="address-state">Address State</label>
+              <input
+                type="text"
+                name="address-state"
+                id="address-state"
+                placeholder="Enter your address state"
+                required
+              />
+            </div>
+            <div class="box">
+              <label for="district">District</label>
+              <input
+                type="text"
+                name="district"
+                id="district"
+                placeholder="Enter your district"
+                required
+              />
+            </div>
+            <div class="box">
+              <label for="block-number">Block Number</label>
+              <input
+                type="number"
+                name="block-number"
+                id="block-number"
+                min="0"
+                placeholder="Enter block number"
+                required
+              />
+            </div>
+            <div class="box">
+              <label for="ward-number">Ward Number</label>
+              <input
+                type="number"
+                name="ward-number"
+                id="ward-number"
+                min="0"
+                placeholder="Enter ward number"
+                required
+              />
+            </div>
+          </div>
+          <h3>Family Details</h3>
+          <div class="container-boxs">
+            <div class="box">
+              <label for="father-name">Father Name</label>
+              <input
+                type="text"
+                name="father-name"
+                id="father-name"
+                placeholder="Enter father name"
+                required
+              />
+            </div>
+            <div class="box">
+              <label for="mother-name">Mother Name</label>
+              <input
+                type="text"
+                name="mother-name"
+                id="mother-name"
+                placeholder="Enter mother name"
+                required
+              />
+            </div>
+            <div class="box">
+              <label for="grandfather">Grandfather Name</label>
+              <input
+                type="text"
+                name="grandfather"
+                id="grandfather"
+                placeholder="Enter grandfather name"
+                required
+              />
+            </div>
+            <div class="box">
+              <label for="spouse">Spouse Name</label>
+              <input
+                type="text"
+                name="spouse"
+                id="spouse"
+                placeholder="Enter spouse name"
+                required
+              />
+            </div>
+            <div class="box">
+              <label for="father-in-law">Father in Law</label>
+              <input
+                type="text"
+                name="father-in-law"
+                id="father-in-law"
+                placeholder="Father in law name"
+                required
+              />
+            </div>
+            <div class="box">
+              <label for="mother-in-low">Mother in Law</label>
+              <input
+                type="text"
+                name="mother-in-low"
+                id="mother-in-low"
+                placeholder="Mother in law name"
+                required
+              />
+            </div>
+          </div>
+          <div class="btns">
+            <button class="backBtn">
+              <i class="fas fa-arrow-left"></i><span>Back</span>
+            </button>
+            <button class="submit">
+              <span>Submit</span>
+              <i class="fas fa-arrow-right"></i>
+            </button>
+          </div>
+        </div>
+      </form>
+    </div>
+    <script src="JS/main.js"></script>
+  </body>
+</html>
