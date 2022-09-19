@@ -1,11 +1,12 @@
 let form=document.querySelector('form'),
     nextBtn=document.querySelector('.nextBtn'),
     backBtn=document.querySelector('.backBtn'),
-    inputFrist=document.querySelectorAll('.frist input'),
-    inputSecond=document.querySelectorAll('.second input');
+    inputFrist=document.querySelectorAll('.frist input');
 
 
-nextBtn.addEventListener('click',()=>{
+
+nextBtn.addEventListener('click',(e)=>{
+    e.preventDefault();
     inputFrist.forEach((input)=>{
         if(input.value!=''){
             form.classList.add('active');
@@ -15,6 +16,8 @@ nextBtn.addEventListener('click',()=>{
     })
 })
 
-backBtn.addEventListener('click',()=>{
+backBtn.addEventListener('click',(e)=>{
+    e.preventDefault();
     form.classList.remove('active');
 })
+
