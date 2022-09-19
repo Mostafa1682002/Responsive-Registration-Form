@@ -6,7 +6,6 @@ let form=document.querySelector('form'),
 
 
 nextBtn.addEventListener('click',(e)=>{
-    e.preventDefault();
     inputFrist.forEach((input)=>{
         if(input.value!=''){
             form.classList.add('active');
@@ -17,7 +16,6 @@ nextBtn.addEventListener('click',(e)=>{
 })
 
 backBtn.addEventListener('click',(e)=>{
-    e.preventDefault();
     form.classList.remove('active');
 })
 
